@@ -6,5 +6,7 @@ class extends lapis.Application
   handle_404: =>
     status: 404, layout:false, "Not Found!"
 
-  [index, "/"]: =>
-    "Welcome to Lapis #{require "lapis.version"}!"
+  [index: "/"]: =>
+    @html ->
+      h2 "Welcome to datnew.technology"
+      p "Running on Lapis #{require "lapis.version"}"
