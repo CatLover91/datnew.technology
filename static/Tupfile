@@ -1,3 +1,16 @@
 .gitignore
 
-: foreach ./*.scss |> sassc -I scss/ < %f > %o |> %B.css
+# Flags
+SASSC_FLAGS = --style compressed
+SASSC_FLAGS += --precision 10
+
+POSTCSS_FLAGS = --use autoprefixer
+POSTCSS_FLAGS += --autoprefixer.remove false
+POSTCSS_FLAGS += --autoprefixer.browsers "last 2 versions, > 2%, Firefox ESR, not IE <= 10"
+
+
+# Macros
+!sass = |> sassc $(SASSC_FLAGS) %f | `yarn bin`/postcss $(POSTCSS_FLAGS) --output %o |>
+
+# Build Sass
+: foreach scss/*.scss |> sassc -I scss/ < %f > %o |> %B.css

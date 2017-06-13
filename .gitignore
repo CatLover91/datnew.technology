@@ -1,4 +1,6 @@
 .tup
 *.lua
+drafts/
 logs/
 nginx.conf.compiled
+static/fonts/

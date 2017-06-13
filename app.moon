@@ -8,5 +8,13 @@ class extends lapis.Application
 
   [index: "/"]: =>
     @html ->
-      h2 "Welcome to datnew.technology"
-      p "Running on Lapis #{require "lapis.version"}"
+      div id: "main", ->
+        div class: "cta", ->
+          div class: "cta-block", ->
+            h1 "datnew.technology"
+          
+          div class: "scroll-btn", ->
+            div class: "fa fa-arrow-circle-o-down"
+
+        p "Running on Lapis #{require "lapis.version"}"
+        

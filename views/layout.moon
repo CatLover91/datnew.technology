@@ -22,7 +22,6 @@ class Layout extends Widget
     meta name: "viewport", content: "width=device-width, initial-scale=1"
     
     link rel: "stylesheet", href: "static/main.css"
-    link href: "//fonts.googleapis.com/css?family=Anonymous+Pro", rel: "stylesheet", type: "text/css"
 
   header: =>
     div class: "header"
