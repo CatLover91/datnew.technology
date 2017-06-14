@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: datnew.technology
+Token: 643092eaa2499a57d582651109152133cea8bb2c79f0895e8d9fd9bc01927d47
