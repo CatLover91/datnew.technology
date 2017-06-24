@@ -1,0 +1,32 @@
+//@import "dnt-mixins";
+
+@include font-face(DecimaMonoPro, fonts/DecimaMonoPro);
+@include font-face(FontAwesome, fonts/fontawesome-wrbfont);
+* { box-sizing: border-box; }
+
+html, body {
+  font-family:"DecimaMonoPro", monospace;
+  width:100%;
+  height:100%;
+  background-color:#333;
+  color:#fff;
+  margin:0;
+  padding:0;
+  font-size:16px;
+}
+
+#main {
+  width:100%;
+  height:100%;
+  position:relative;
+  .cta {
+    position:relative;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+}
+
