@@ -1,0 +1,34 @@
+
+
+.su-bar {
+  position:relative;
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+
+  .su-col {
+    width: 100%;
+    padding: 20px;
+    min-height:400px;
+    &.su-center p {
+      max-width: 215px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    &.su-center .quote-cont {
+      margin: 0 auto;
+      max-width:800px;
+      font-size:26px;
+      display:flex;
+      .quote {
+        flex-grow:1;
+      }
+    }
+    .quote-attrib {
+      max-width:800px;
+      margin:0 auto;
+      text-align:right;
+    }
+  }
+}

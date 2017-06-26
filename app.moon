@@ -30,18 +30,18 @@ class extends lapis.Application
           div class: "su-col", ->
             h3 "What we do"
             p "We deliever end-to-end solutions for the world's thought leaders. This includes:"
-            ul, ->
+            ul ->
               li "performing agile development with turn-key solutions"
               li "creating paradigm shifting AI-based utilities at scale"
               li "pivoting your growth to ramp up vanity metrics into real, actionable insights"
               li "Seamlessly integrate cloud-based tools to empower users and acheive hyperconvergence"
-        div class: "su-row", ->
-          div class: "su-col center", ->
+        div class: "su-bar", ->
+          div class: "su-col su-center", ->
             div class: "quote-cont", ->
-              div class: "quote left"
-              p "These growth hackers really know their stuff. They are truly game changers."
-              div class: "quote right"
-              p class: "p-attrib", "-"
+              div class: "quote-left"
+              div class: "quote", "These growth hackers really know their stuff. They are truly game changers."
+              div class: "quote-right"
+            div class: "quote-attrib", "-"
         div class: "su-footer", ->
           p "Running on Lapis #{require "lapis.version"}"
         
