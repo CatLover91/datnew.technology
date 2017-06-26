@@ -21,7 +21,7 @@ class extends lapis.Application
         div class: "su-bar", ->
           div class: "su-col", ->
             h3 "Who are we"
-            p "We are a collective of 100x rockstar devs dedicated to creating needle-moving solutions. We leverage bleeding-edge technologies to attack multiple verticles for emerging industries. We live and breath synergy, and help create hack growth into win-win narratives"
+            p "We are a collective of 100x rockstar devs dedicated to creating needle-moving solutions. We leverage bleeding-edge technologies to attack multiple verticles for emerging industries. We live and breath synergy, and help hack growth into win-win narratives"
           div class: "su-col", ->
             div class: "su-image image-1"
         div class: "su-bar", ->
@@ -41,7 +41,7 @@ class extends lapis.Application
               div class: "quote-left"
               div class: "quote", "These growth hackers really know their stuff. They are truly game changers."
               div class: "quote-right"
-            div class: "quote-attrib", "-"
+            div class: "quote-attrib", "- some guy"
         div class: "su-footer", ->
           p "Running on Lapis #{require "lapis.version"}"
         
