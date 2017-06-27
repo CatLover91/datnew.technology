@@ -7,9 +7,6 @@ class Home extends Widget
       div class: "cta", ->
         div class: "cta-block", ->
           h1 "datnew.technology"
-        
-        div class: "scroll-btn", ->
-          div class: "fa fa-arrow-circle-o-down"
       div class: "su-bar", ->
         div class: "su-col su-center", ->
           p "Disrupt the status quo. Create the uncreatable."
@@ -36,7 +33,7 @@ class Home extends Widget
           div class: "su-col su-center", ->
             div class: "quote-cont", ->
               div class: "fa fa-quote-left"
-              div class: "quote", "These growth hackers really know their stuff. They are truly game changers."
+              div class: "quote", "These growth hackers really know their stuff. They truly are game changers."
               div class: "fa fa-quote-right"
             div class: "quote-attrib", "- some guy"
       div class: "su-footer", ->

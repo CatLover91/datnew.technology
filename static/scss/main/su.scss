@@ -23,9 +23,11 @@
       display:flex;
       .quote {
         flex-grow:1;
+        padding:0 15px;
       }
     }
     .quote-attrib {
+      width:100%;
       max-width:800px;
       margin:0 auto;
       text-align:right;
@@ -51,6 +53,7 @@
   background-image: url(/static/images/shutterstock/stock-photo-happy-indian-male-student-with-smartphone-663508867.jpg);
   background-position-y:27%;
   position:relative;
+  margin-top:25px;
   .su-image-gradient {
     position:absolute;
     width:100%;
