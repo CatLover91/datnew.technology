@@ -6,7 +6,8 @@ class Home extends Widget
     div id: "main", ->
       div class: "nav", ->
         div class: "nav-side"
-        div class: "nav-center", "Dat New"
+        div class: "nav-center", ->
+          div class:"nav-center-text", "Dat New"
         div class: "nav-side"
       div class: "cta", ->
         div class: "cta-block", ->
