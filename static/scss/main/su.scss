@@ -1,4 +1,6 @@
-
+a {
+  color: #F277A1;
+}
 
 .su-bar {
   position:relative;
@@ -6,15 +8,23 @@
   max-width:1200px;
   margin:0 auto;
   display:flex;
-
+  flex-wrap:wrap;
+  .su-bar-header {
+    width:100%;
+    text-align: center;
+    padding-top:30px;
+  }
   .su-col {
-    width: 100%;
+    width: 50%;
     padding: 20px;
     min-height:400px;
-    &.su-center p {
-      max-width: 215px;
-      text-align: center;
-      margin: 0 auto;
+    &.su-center { 
+      width:100%;  
+      p {
+        max-width: 215px;
+        text-align: center;
+        margin: 0 auto;
+      }
     }
     &.su-center .quote-cont {
       margin: 0 auto;
@@ -24,11 +34,12 @@
       .quote {
         flex-grow:1;
         padding:0 15px;
+        max-width:680px
       }
     }
     .quote-attrib {
       width:100%;
-      max-width:800px;
+      max-width:740px;
       margin:0 auto;
       text-align:right;
     }

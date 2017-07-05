@@ -1,5 +1,5 @@
 //@import "dnt-mixins";
-
+@include font-face(Sarina, 'https://fonts.googleapis.com/css?family=Sarina');
 @include font-face(DecimaMonoPro, fonts/DecimaMonoPro);
 @include font-face(FontAwesome, fonts/fontawesome-wrbfont);
 * { box-sizing: border-box; }
@@ -27,6 +27,62 @@ html, body {
     flex-direction:column;
     align-items:center;
     justify-content:center;
+    .cta-block {
+      border-radius:3px;
+      width:33%;
+      min-width:400px;
+      height:200px;
+      border:3px solid white;
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-image:url('https://files.catbox.moe/sloccc.gif');
+      .image-cover {
+        width:100%;
+        height:100%;
+        background-color:rgba(240, 90, 127,0.5);
+        position:relative;
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        color:#303030;
+
+        .surtext {
+          font-family: 'Sarina', cursive;
+          font-size:30px;
+          font-weight:600;
+          text-align:center;
+          text-shadow: 0 1px white;
+        }
+        .subtext {
+          font-family: 'Sarina', cursive;
+          font-size:50px;
+          font-weight:600;
+          text-shadow: 0 1px white;
+        }
+      }
+    }
+  }
+  .team-header {
+    text-align:center;
+  }
+  .team-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    .team-member {
+      padding:20px;
+      text-align:center;
+      .member-image {
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        border:2px solid white;
+        margin: 20px auto;
+      }
+    }
   }
 }
 
