@@ -1,7 +1,35 @@
+@include font-face(Sarina, 'https://fonts.googleapis.com/css?family=Sarina');
+
 a {
   color: #F277A1;
 }
-
+.nav {
+  background-color:transparent;
+  border-bottom:2px solid transparent;
+  position: fixed;
+  width:100%;
+  top:0;
+  display:flex;
+  justify-content:space-between;
+  transition:150ms ease all;
+  z-index:1;
+  .nav-center {
+    padding-top:20px;
+    padding-bottom:5px;
+    transition:150ms ease all;
+    opacity:0;
+    font-size:30px;
+    font-weight:600;
+    font-family: 'Sarina', cursive;
+  }
+  &.pop {
+    background-color:#303030;
+    border-color:#fff;
+    .nav-center {
+      opacity:1;
+    }
+  }
+}
 .su-bar {
   position:relative;
   width:100%;

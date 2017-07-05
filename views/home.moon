@@ -4,6 +4,10 @@ import Widget from require "lapis.html"
 class Home extends Widget
   content: =>
     div id: "main", ->
+      div class: "nav", ->
+        div class: "nav-side"
+        div class: "nav-center", "Dat New"
+        div class: "nav-side"
       div class: "cta", ->
         div class: "cta-block", ->
           div class: "image-cover", ->
@@ -60,7 +64,12 @@ class Home extends Widget
               div class: "member-role", "Angel Investor"
       div class: "su-bar", ->
         h3 class: "su-bar-header", "testimonials"
-        div class: "su-col"
-        div class: "su-col"
+        div class: "su-col su-center slick", ->
+          video
+          video
       div class: "su-footer", ->
         p "Running on Lapis #{require "lapis.version"}"
+    script type: "text/javascript", src: "//code.jquery.com/jquery-1.11.0.min.js"
+    script type: "text/javascript", src: "//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    script type: "text/javascript", src: "//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"
+    script type: "text/javascript", src: "/static/js/home.js"
