@@ -2,7 +2,9 @@
 my personal blog/info/lifestyle website.
 
 deffo a work in progress but it uses [Lapis](https://github.com/leafo/lapis) so that's pretty cool.
-
+* mobile friendly (this should have been first)
+* get testimonials
+* get greenscreen for `Meet The Team`
 * main splash and info
 * about me page
 * blog w/ rss
