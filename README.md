@@ -1,5 +1,5 @@
 # DatNew.Technology
-my personal blog/info/lifestyle website.
+my personal blog/info/lifestyle website. Brought to you by Synergy™.
 
 deffo a work in progress but it uses [Lapis](https://github.com/leafo/lapis) so that's pretty cool.
 * mobile friendly (this should have been first)
