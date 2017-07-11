@@ -5,3 +5,4 @@ logs/
 nginx.conf.compiled
 static/fonts/
 static/images/
+static/scss/bulma

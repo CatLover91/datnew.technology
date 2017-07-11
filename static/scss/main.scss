@@ -1,3 +1,10 @@
+// bulma initial variables
+@import "bulma/sass/utilities/initial-variables";
+
+// dat new technology styles
 @import "main/mixins";
 @import "main/su";
 @import "main/home";
+
+// import the rest of bulma
+@import "bulma/bulma";
