@@ -3,7 +3,7 @@
 a {
   color: #F277A1;
 }
-.nav {
+.custom-nav {
   background-color:transparent;
   border-bottom:2px solid transparent;
   position: fixed;
@@ -69,38 +69,40 @@ a {
         margin: 0 auto;
       }
     }
-    &.su-center .quote-cont {
-      margin: 0 auto;
-      max-width:800px;
-      font-size:26px;
-      display:flex;
-      .quote {
-        flex-grow:1;
-        padding:0 15px;
-        max-width:680px
-      }
-    }
-    .quote-attrib {
-      width:100%;
-      max-width:740px;
-      margin:0 auto;
-      text-align:right;
-    }
-    .su-image {
-      width:100%;
-      height:100%;
-      background-repeat:no-repeat;
-      background-size:cover;
-      border-radius:3px;
-      &.image-1 {
-        background-image:url(/static/images/shutterstock/stock-photo-middle-aged-businessman-with-eyeglasses-in-office-361409216.jpg);
-      }
-      &.image-2 {
-        background-image:url(/static/images/shutterstock/stock-photo-working-process-of-successful-call-center-team-at-office-and-smiling-operators-focus-on-the-blond-330892385.jpg);
-      }
-    }
   }
 }
+.quote-cont {
+  margin: 0 auto;
+  max-width:800px;
+  font-size:26px;
+  display:flex;
+  .quote {
+    flex-grow:1;
+    padding:0 15px;
+    max-width:680px
+  }
+}
+.quote-attrib {
+  width:100%;
+  max-width:740px;
+  margin:0 auto;
+  text-align:right;
+}
+
+.su-image {
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius:3px;
+  &.image-1 {
+    background-image:url(/static/images/shutterstock/stock-photo-middle-aged-businessman-with-eyeglasses-in-office-361409216.jpg);
+  }
+  &.image-2 {
+    background-image:url(/static/images/shutterstock/stock-photo-working-process-of-successful-call-center-team-at-office-and-smiling-operators-focus-on-the-blond-330892385.jpg);
+  }
+}
+
 .su-bar-image {
   background-repeat: no-repeat;
   background-size: cover;

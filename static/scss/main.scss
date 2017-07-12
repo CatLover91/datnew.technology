@@ -1,6 +1,14 @@
 // bulma initial variables
 @import "bulma/sass/utilities/initial-variables";
 
+$pink:#F277A1;
+$pink-invert:#fff;
+$primary: $pink;
+$primary-invert:$pink-invert;
+
+#main {
+  color:#fff;
+}
 // dat new technology styles
 @import "main/mixins";
 @import "main/su";

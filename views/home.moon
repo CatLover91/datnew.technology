@@ -4,7 +4,7 @@ import Widget from require "lapis.html"
 class Home extends Widget
   content: =>
     div id: "main", ->
-      div class: "nav", ->
+      div class: "custom-nav", ->
         div class: "nav-side"
         div class: "nav-center", ->
           div class:"nav-center-text", "Dat New"
@@ -15,19 +15,19 @@ class Home extends Widget
             div class: "splash-cont", ->
               div class: "surtext", "Dat New"
               div class: "subtext", "Technology"
-      div class: "su-bar", ->
-        div class: "su-col su-center", ->
+      div class: "columns", ->
+        div class: "column has-text-centered", ->
           p "Disrupt the status quo. Create the uncreatable."
-      div class: "su-bar", ->
-        div class: "su-col", ->
+      div class: "columns", ->
+        div class: "column", ->
           h3 "Who are we?"
           p "We are a collective of 100x rockstar devs dedicated to creating needle-moving solutions. We leverage bleeding-edge technologies to attack multiple verticles for emerging industries. We live and breath synergy, and help hack growth into win-win narratives."
-        div class: "su-col", ->
+        div class: "column", ->
           div class: "su-image image-1"
-      div class: "su-bar", ->
-        div class: "su-col", ->
+      div class: "columns", ->
+        div class: "column", ->
           div class: "su-image image-2"
-        div class: "su-col", ->
+        div class: "column", ->
           h3 "What we do"
           p "We deliever end-to-end solutions for the world's thought leaders. This includes:"
           ul ->

@@ -5,9 +5,9 @@ $(document).ready(function() {
   $(window).scroll(function() {
     var windowpos = $(window).scrollTop();
     if (windowpos >= height) {
-      $('.nav').addClass("pop");
+      $('.custom-nav').addClass("pop");
     } else {
-      $('.nav').removeClass("pop"); 
+      $('.custom-nav').removeClass("pop"); 
     }
   });
 });
