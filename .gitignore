@@ -1,8 +1,2 @@
-.tup
-*.lua
-drafts/
-logs/
-nginx.conf.compiled
-static/fonts/
-static/images/
-static/scss/bulma
+node_modules
+assets
