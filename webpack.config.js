@@ -38,11 +38,10 @@ function makeStyleLoader( type ) {
 
 module.exports = {
     entry: {
-      'follower-report': './js/follower-report.js',
-      'follower-landing': './js/follower-landing.js'
+      bundle: './src/app,js'
     },
     output: {
-      path: path.resolve( __dirname, '../' ),
+      path: path.resolve( __dirname, './' ),
       filename: 'assets/js/[name].js'
     },
     module: {
@@ -80,7 +79,7 @@ module.exports = {
           path: path.resolve( __dirname, './' ),
           name: 'assets/fonts/[name].[ext]',
           
-          publicPath: '../../'
+          publicPath: '../'
           //outputPath: 'assets/'
         }
       }]
